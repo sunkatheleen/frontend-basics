@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Reenie+Beanie&family=Sacramento&family=Silkscreen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Handlee&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #b896ce 16.62%, #852fba 85.61%);
+}
+
+.cabeçalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 44px;
+}
+
+.menu {
+    display: flex;
+    gap: 42px;
+}
+
+.menu-item {
+        font-family: "Reenie Beanie", cursive;
+        font-weight: 400;
+        font-style: normal;
+        color:azure;
+        font-size: 38px;
+    
+      }
+
+      .conteúdo {
+        margin-bottom: 48px;
+        border-top: 0.4px solid #bda9cf;
+        padding-top: 28px;
+    }
+    
+    .conteúdo-principal {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        max-width: 1200px; 
+        margin: 0 auto;
+        gap: 30px;
+    }
+
+    .conteúdo-principal-escrito {
+        display: flex;
+        flex-direction: column;
+        gap: 22px;
+    }
+    
+    .conteúdo-principal-título {
+        font-family: "VT323", sans-serif;
+        font-weight: 400;
+        font-style: bold;
+        color:rgb(31, 8, 40);
+        font-size: 72px;
+    }
+
+    .conteúdo-principal-subtitulo{
+        font-family: "Reenie Beanie", cursive;
+        font-weight: 400;
+        font-style: normal;
+        color:rgb(31, 8, 40);
+        font-size: 42px;
+    }
+
+    .conteúdo-principal-botão {
+        background-color: #ede1fa;
+        width: 200px;
+        height: 70px;
+        border: none;
+        box-shadow: 4px 5px 4px 0px #00000040;
+        border-radius: 20px;
+        font-family: "Nova Mono", sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        color: #3f1758;
+        gap: 32px;
+    }
+
+    .conteúdo-principal-botão:hover {
+        background-color: rgba(236, 214, 196,0.53);
+    }
+
+.conteúdo-principal-imagem {
+    height: 330px;
+}
+
+
+.conteúdo-secundário {
+
+    padding: 82px;
+    border-top: 0.4px solid #bda9cf;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1200px; 
+    margin: 0 auto;
+    gap: 130px;
+}
+
+.conteúdo-secundário-escrito {
+    font-family: "Nova Mono", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color:rgb(31, 8, 40);
+    font-size: 22px;
+}
+
+.rodapé-imagem {
+    height: 108px;
+    display: block;
+    margin: 0 auto;
+}
